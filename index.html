@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+      video {
+        margin-top: 20px;
+        height: 300px;
+        width: 300px;
+      }
+      #output {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      img {
+        margin-top: 20px;
+        display: block;
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+      }
+      
+      body {
+      background: #f9f9f9;
+      }
+      input {
+        display: block;
+      }
+      .add-card {
+        position: fixed;
+        right: 40px;
+        top: 40px;
+        display: inline-block;
+        text-align: center;
+        font-size: 16px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+        border-radius: 5px;
+        background: #FFCC69;
+        cursor: pointer;
+        outline: none;
+        border: none;
+        padding: 20px;
+      }
+      .add-card:nth-child(2) {
+        right: 40px;
+        top: 150px;
+      }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+
+<div id="output">
+  
+</div>
+
+<button class="add-card" data-dog="собака">add dog</button>
+<button class="add-card" data-cat="кошка">add cat</button>
+
+  <script src="promiseAPI.js"></script>
+</body>
+</html>
